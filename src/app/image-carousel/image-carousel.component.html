@@ -1,0 +1,16 @@
+<div class="carousel">
+  <div class="carousel-inner" [style.transform]="getTransformStyle()">
+    <div *ngFor="let image of images" class="carousel-item">
+      <img [src]="image.url" [alt]="image.alt" loading="lazy">
+      <div class="caption">{{ image.title }}</div>
+    </div>
+  </div>
+  <button class="carousel-control prev" (click)="prev()">&laquo;</button>
+  <button class="carousel-control next" (click)="next()">&raquo;</button>
+  <div class="carousel-indicators">
+    <span *ngFor="let dot of images; let i = index" 
+          [class.active]="i === currentIndex"
+          (click)="goToSlide(i)">
+    </span>
+  </div>
+</div>

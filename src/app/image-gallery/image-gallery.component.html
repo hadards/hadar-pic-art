@@ -1,0 +1,13 @@
+<div class="gallery">
+  <div class="gallery-item" *ngFor="let image of galleryImages">
+    <div class="image-container">
+      <img [src]="image.url" [alt]="image.alt">
+      <div class="overlay">
+        <h3>{{ image.title }}</h3>
+      </div>
+    </div>
+  </div>
+  <div class="overlap-container">
+    <img src="assets/images/star2.png" alt="Overlapping Image" class="overlap-image">
+  </div>
+</div>
