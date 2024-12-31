@@ -9,19 +9,19 @@ import { IImage } from '../models/image.model';
 export class LandingComponent {
   showcaseImages: IImage[] = [
     {
-      url: 'assets/images/Eitan cartoon 4.jpg',
+      url: 'assets/images/2.png',
       alt: 'AI Generated Artwork 1',
-      title: 'Cartoon Figures'
+      title: 'Abstract Dreams'
     },
     {
-      url: 'assets/images/2.png',
+      url: 'assets/images/dashmaries.JPEG',
       alt: 'AI Generated Artwork 2',
-      title: 'Abstract Dreams'
+      title: 'Funny Cartoons'
     },
     {
       url: 'assets/images/hadar.jpg',
       alt: 'AI Generated Artwork 3',
-      title: 'Digital Landscapes'
+      title: 'Professional Profile'
     },
     {
       url: 'assets/images/4.jpg',
@@ -31,17 +31,17 @@ export class LandingComponent {
     {
       url: 'assets/images/eitan-invite.jpg',
       alt: 'AI Generated Artwork 5',
-      title: 'Digital Landscapes'
+      title: 'Special Cards'
+    },
+    {
+      url: 'assets/images/Eitan cartoon 4.jpg',
+      alt: 'AI Generated Artwork 7',
+      title: 'Cartoon Figures'
     },
     {
       url: 'assets/images/1.png',
       alt: 'AI Generated Artwork 6',
       title: 'Future Visions'
-    },
-    {
-      url: 'assets/images/dashmaries.JPEG',
-      alt: 'AI Generated Artwork 7',
-      title: 'Funny Cartoons'
     }
   ];
 }
