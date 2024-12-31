@@ -65,14 +65,12 @@ img {
     justify-content: center;
     align-items: center;
     margin-top: -150px;
-    margin-bottom: -70px;
-  
-  }
-  
-  .overlap-image {
+    margin-bottom: -200px;
+}
+
+.overlap-image {
     width: 200px;
     height: auto;
     max-width: 100%;
     z-index: 5;
-  }
-  
+}
